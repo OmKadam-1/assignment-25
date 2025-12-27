@@ -16,12 +16,7 @@ function Home() {
 
       <div className="min-h-screen">
         <div className="flex flex-col md:flex-row items-center">
-          <img
-            
-            alt="Main Header"
-            className="" 
          
-          />
           <div>
             <h1 className="text-[40px]! text-center md:text-[70px]! text-[#e69100]">
               Here is what you need to stay healthy
