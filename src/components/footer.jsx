@@ -41,7 +41,7 @@ const FooterLink = ({ name, url, icon }) => {
 
 function Footer() {
   return (
-    <div className="w-full bg-[#FFBC4C] px-10 py-4 flex justify-around">
+    <div className="w-full bg-[] px-10 py-4 flex justify-around">
       <div>
         Made with <span style={{ color: "red" }}>Dedication</span> Technology
       </div>

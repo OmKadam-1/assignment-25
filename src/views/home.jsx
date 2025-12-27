@@ -17,11 +17,11 @@ function Home() {
       <div className="min-h-screen">
         <div className="flex flex-col md:flex-row items-center">
           <img
-            src={ImgMainHeader}
+            
             alt="Main Header"
-            className="h-[50px] w-auto object-contain"
+            className="" 
+         
           />
-
           <div>
             <h1 className="text-[40px]! text-center md:text-[70px]! text-[#e69100]">
               Here is what you need to stay healthy
