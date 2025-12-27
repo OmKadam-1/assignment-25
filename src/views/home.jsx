@@ -19,7 +19,7 @@ function Home() {
           <img
             src={ImgMainHeader}
             alt="Main Header"
-            className="h-[400px] w-auto object-contain"
+            className="h-[50px] w-auto object-contain"
           />
 
           <div>
