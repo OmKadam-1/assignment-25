@@ -1,0 +1,57 @@
+/* w-full */
+.w-full {
+  width: 100%;
+}
+
+/* bg-[#FFBC4C] */
+.bg-\[\#FFBC4C\] {
+  background-color: #ffbc4c;
+}
+
+/* px-10 */
+.px-10 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* py-4 */
+.py-4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+
+/* justify-around */
+.justify-around {
+  justify-content: space-around;
+}
+
+/* mx-2 */
+.mx-2 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* mr-3 */
+.mr-3 {
+  margin-right: 12px;
+}
+
+/* align-middle */
+.align-middle {
+  vertical-align: middle;
+}
+
+/* inline-block */
+.inline-block {
+  display: inline-block;
+}
+
+/* ml-1 */
+.ml-1 {
+  margin-left: 4px;
+}

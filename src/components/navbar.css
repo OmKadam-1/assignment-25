@@ -1,0 +1,134 @@
+/* bg-[#FFBC4C] */
+.bg-\[\#FFBC4C\] {
+  background-color: #ffbc4c;
+}
+
+/* sticky */
+.sticky {
+  position: sticky;
+}
+
+/* top-2 */
+.top-2 {
+  top: 8px;
+}
+
+/* max-w-10/12 */
+.max-w-10\/12 {
+  max-width: 83.333333%;
+}
+
+/* mx-auto */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* px-10 */
+.px-10 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* py-2 */
+.py-2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* rounded-full */
+.rounded-full {
+  border-radius: 9999px;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+
+/* items-center */
+.items-center {
+  align-items: center;
+}
+
+/* my-2 */
+.my-2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* z-50 */
+.z-50 {
+  z-index: 50;
+}
+
+/* mr-2 */
+.mr-2 {
+  margin-right: 8px;
+}
+
+/* inline-block */
+.inline-block {
+  display: inline-block;
+}
+
+/* align-middle */
+.align-middle {
+  vertical-align: middle;
+}
+
+/* text-2xl */
+.text-2xl {
+  font-size: 24px;
+}
+
+/* font-bold */
+.font-bold {
+  font-weight: 700;
+}
+
+/* ml-auto */
+.ml-auto {
+  margin-left: auto;
+}
+
+/* relative */
+.relative {
+  position: relative;
+}
+
+/* absolute */
+.absolute {
+  position: absolute;
+}
+
+/* -top-2 */
+.-top-2 {
+  top: -8px;
+}
+
+/* -right-1 */
+.-right-1 {
+  right: -4px;
+}
+
+/* bg-red-500 */
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+/* text-white */
+.text-white {
+  color: white;
+}
+
+/* text-sm */
+.text-sm {
+  font-size: 14px;
+}
+
+/* px-2 */
+.px-2 {
+  padding-left: 8px;
+  padding-right: 8px;
+}

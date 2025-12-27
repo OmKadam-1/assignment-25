@@ -1,0 +1,151 @@
+/* border */
+.border {
+  border-width: 1px;
+}
+
+/* border-solid */
+.border-solid {
+  border-style: solid;
+}
+
+/* border-slate-500 */
+.border-slate-500 {
+  border-color: #64748b;
+}
+
+/* bg-white */
+.bg-white {
+  background-color: #ffffff;
+}
+
+/* m-5 */
+.m-5 {
+  margin: 20px;
+}
+
+/* p-4 */
+.p-4 {
+  padding: 16px;
+}
+
+/* w-90 (custom width, Tailwind doesn't exist → must define) */
+.w-90 {
+  width: 360px;
+}
+
+/* rounded-md */
+.rounded-md {
+  border-radius: 6px;
+}
+
+/* relative */
+.relative {
+  position: relative;
+}
+
+/* absolute */
+.absolute {
+  position: absolute;
+}
+
+/* top-2 */
+.top-2 {
+  top: 8px;
+}
+
+/* right-2 */
+.right-2 {
+  right: 8px;
+}
+
+/* text-white */
+.text-white {
+  color: white;
+}
+
+/* text-lg */
+.text-lg {
+  font-size: 18px;
+}
+
+/* w-full */
+.w-full {
+  width: 100%;
+}
+
+/* h-48 */
+.h-48 {
+  height: 192px;
+}
+
+/* object-cover */
+.object-cover {
+  object-fit: cover;
+}
+
+/* text-slate-500 */
+.text-slate-500 {
+  color: #64748b;
+}
+
+/* my-2 */
+.my-2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* text-slate-600 */
+.text-slate-600 {
+  color: #475569;
+}
+
+/* text-xl */
+.text-xl {
+  font-size: 20px;
+}
+
+/* font-bold */
+.font-bold {
+  font-weight: 700;
+}
+
+/* text-slate-800 */
+.text-slate-800 {
+  color: #1e293b;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+
+/* justify-center */
+.justify-center {
+  justify-content: center;
+}
+
+/* items-center */
+.items-center {
+  align-items: center;
+}
+
+/* my-4 */
+.my-4 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* gap-4 */
+.gap-4 {
+  gap: 16px;
+}
+
+/* cursor-pointer */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* text-2xl */
+.text-2xl {
+  font-size: 24px;
+}

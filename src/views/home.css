@@ -1,0 +1,24 @@
+/* Main header image control */
+.h-\[400px\] {
+  height: 400px;
+  max-width: 100%;
+}
+
+/* Limit image width on large screens */
+@media (min-width: 768px) {
+  .h-\[400px\] {
+    max-width: 450px;
+  }
+}
+
+/* Fix image overflow pushing buttons */
+.object-contain {
+  object-fit: contain;
+  display: block;
+}
+
+/* Center text section properly */
+.md\:flex-row > div {
+  max-width: 600px;
+  padding: 20px;
+}
