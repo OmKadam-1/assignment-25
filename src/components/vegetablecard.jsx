@@ -3,7 +3,6 @@ import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import Button from "./button";
 
-
 function VegetableCard({
   id,
   name,
@@ -18,56 +17,53 @@ function VegetableCard({
   const [quantity, setQuantity] = useState(1);
 
   return (
-    <div
-      className="border border-solid border-slate-500 bg-white m-5 p-4 w-90 rounded-md"
-      key={id}
-    >
+    <div className="bg-white border border-gray-200 rounded-xl shadow-md p-5 m-5 w-80 hover:shadow-xl transition-shadow duration-300">
+     
       <div className="relative">
         <img
           src={image}
           alt={name}
-          className="w-full h-48 object-cover rounded-md"
+          className="w-full h-48 object-cover rounded-xl"
         />
-        <span className="absolute top-2 right-2 text-white text-lg">
+        <span className="absolute top-2 right-2 bg-green-600 text-white px-2 py-1 text-xs rounded-full font-semibold">
           {category}
         </span>
       </div>
-      <h3>{name}</h3>
-      <p className="text-slate-500">{description}</p>
-      <p className="my-2 text-slate-600">
-        <span className="text-xl font-bold text-slate-800">₹{price}</span> per{" "}
-        {unit}
-      </p>
-      <p>{tags.join(", ")}</p>
 
+    
+      <h3 className="text-xl font-bold text-gray-800 mt-3">{name}</h3>
+      <p className="text-gray-500 mt-1 text-sm">{description}</p>
+      <p className="my-2 text-gray-700">
+        <span className="text-lg font-semibold text-gray-900">₹{price}</span> per {unit}
+      </p>
+      <p className="text-gray-400 text-sm">{tags.join(", ")}</p>
+
+     
       <div className="flex justify-center items-center my-4 gap-4">
         <CircleMinus
-          className="cursor-pointer"
+          className="cursor-pointer text-gray-600 hover:text-red-500 transition-colors"
+          size={24}
           onClick={() => {
-            if (quantity > 1) {
-              setQuantity(quantity - 1);
-            } else {
-              toast.error("Quantity cannot be less than 1");
-            }
+            if (quantity > 1) setQuantity(quantity - 1);
+            else toast.error("Quantity cannot be less than 1");
           }}
         />
-        <label className="text-2xl">{quantity}</label>
+        <span className="text-2xl font-semibold">{quantity}</span>
         <CirclePlus
-          className="cursor-pointer"
+          className="cursor-pointer text-gray-600 hover:text-green-500 transition-colors"
+          size={24}
           onClick={() => {
-            if (quantity < 10) {
-              setQuantity(quantity + 1);
-            } else {
-              toast.error("Quantity cannot be more than 10");
-            }
+            if (quantity < 10) setQuantity(quantity + 1);
+            else toast.error("Quantity cannot be more than 10");
           }}
         />
       </div>
 
+     
       <div className="flex justify-center">
         <Button
           title={"Add To Cart"}
-          onClick={() => {
+          onClick={() =>
             addToCart({
               id,
               name,
@@ -77,11 +73,10 @@ function VegetableCard({
               unit,
               category,
               tags,
-              addToCart,
               quantity,
               totalAmount: price * quantity,
-            });
-          }}
+            })
+          }
         />
       </div>
 

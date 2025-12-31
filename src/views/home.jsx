@@ -13,7 +13,7 @@ function Home() {
       <Navbar />
 
       <div className="container mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-10">
-        {/* Left Text Section */}
+       
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-extrabold text-[#e69100] leading-tight">
             Here is what you need to stay healthy
@@ -34,7 +34,7 @@ function Home() {
           </div>
         </div>
 
-        {/* Right Image Section */}
+       
         <div className="flex-1">
           <img
             src={ImgMainHeader}
