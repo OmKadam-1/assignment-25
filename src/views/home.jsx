@@ -1,44 +1,51 @@
 import FeatureSection from "../components/feauture";
 import ImgMainHeader from "./../assets/main-header.jpg";
 import Button from "./../components/button";
-
 import Footer from "./../components/footer";
 import Navbar from "./../components/navbar";
-
 import { useNavigate } from "react-router";
 
 function Home() {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="bg-gradient-to-b from-green-50 via-white to-white min-h-screen">
       <Navbar />
 
-      <div className="min-h-screen">
-        <div className="flex flex-col md:flex-row items-center">
-         
-          <div>
-            <h1 className="text-[40px]! text-center md:text-[70px]! text-[#e69100]">
-              Here is what you need to stay healthy
-            </h1>
+      <div className="container mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-10">
+        {/* Left Text Section */}
+        <div className="flex-1 text-center md:text-left">
+          <h1 className="text-4xl md:text-6xl font-extrabold text-[#e69100] leading-tight">
+            Here is what you need to stay healthy
+          </h1>
 
-            <div className="flex flex-col md:flex-row gap-4 mt-8 justify-center">
-              <Button
-                title={"Explore Now"}
-                onClick={() => {
-                  navigate("/vegetables");
-                }}
-                variant="primary"
-                size="medium"
-              />
+          <p className="mt-6 text-gray-700 text-lg md:text-xl max-w-md mx-auto md:mx-0">
+            Fresh vegetables, wellness tips, and healthy living essentials at your fingertips.
+          </p>
 
-              <Button title={"Call Us"} variant="tertiary" size="medium" />
-            </div>
+          <div className="flex flex-col md:flex-row gap-4 mt-8 justify-center md:justify-start">
+            <Button
+              title={"Explore Now"}
+              onClick={() => navigate("/vegetables")}
+              variant="primary"
+              size="medium"
+            />
+            <Button title={"Call Us"} variant="tertiary" size="medium" />
           </div>
         </div>
 
-        <FeatureSection />
+        {/* Right Image Section */}
+        <div className="flex-1">
+          <img
+            src={ImgMainHeader}
+            alt="Healthy Lifestyle"
+            className="w-full h-auto rounded-xl shadow-lg"
+          />
+        </div>
       </div>
+
+      <FeatureSection />
+
       <Footer />
     </div>
   );

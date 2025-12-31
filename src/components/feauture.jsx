@@ -2,7 +2,7 @@ import IconDelivery from "./../assets/features/delivery.jpg";
 import IconFarming from "./../assets/features/farming.jpg";
 import IconFresh from "./../assets/features/fresh.jpg";
 import IconVariety from "./../assets/features/variety.jpg";
-import "./feature.css";
+
 
 function FeatureCard({ title, description, imgSrc }) {
   return (

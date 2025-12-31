@@ -2,7 +2,7 @@ import { CircleMinus, CirclePlus } from "lucide-react";
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import Button from "./button";
-import "./vegetablecard.css";
+
 
 function VegetableCard({
   id,

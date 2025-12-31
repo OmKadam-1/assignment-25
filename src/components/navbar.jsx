@@ -4,7 +4,7 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
-import "./navbar.css";
+
 
 function Navbar({ refreshCart }) {
   const [cartItems, setCartItems] = useState([]);

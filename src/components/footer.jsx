@@ -1,5 +1,5 @@
 import { Facebook, Github, Linkedin, Twitter, Youtube } from "lucide-react";
-import "./footer.css";
+
 
 const SOCIAL_LINKS = [
   {
