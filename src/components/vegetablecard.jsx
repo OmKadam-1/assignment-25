@@ -17,7 +17,7 @@ function VegetableCard({
   const [quantity, setQuantity] = useState(1);
 
   return (
-    <div className="bg-white border border-gray-200 rounded-xl shadow-md p-5 m-5 w-80 hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-white border border-gray-200 rounded-xl shadow-md p-5 m-5 w-55 hover:shadow-xl transition-shadow duration-300">
      
       <div className="relative">
         <img
